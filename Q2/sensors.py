@@ -11,7 +11,7 @@ sasl_plain_username=data['Api key'];
 sasl_plain_password=data['Api secret'];
 topicName=''                        #TODO: fill by topic name
 
-#device distribution profile used to generate random data
+#device normal distributions profile used to generate random data
 DEVICE_PROFILES = {
 	"boston": {'temp': (51.3, 17.7), 'humd': (77.4, 18.7), 'pres': (1.019, 0.091) },
 	"denver": {'temp': (49.5, 19.3), 'humd': (33.0, 13.9), 'pres': (1.512, 0.341) },
